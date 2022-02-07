@@ -1,0 +1,16 @@
+2021-04-06 06:55:27,876 DEBUG client.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__.Вызов из функции main().Вызов из функции main
+2021-04-06 06:55:36,210 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: denis
+2021-04-06 06:55:36,210 DEBUG client.py Сформировано presence сообщение для пользователя denis
+2021-04-06 06:55:36,210 DEBUG client.py Была вызвана функция create_new_presence c параметрами ('denis',), {}. Вызов из модуля __main__.Вызов из функции main().Вызов из функции main
+2021-04-06 06:55:36,211 DEBUG client.py Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41068), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1617681336.210475, 'user': {'account_name': 'denis'}}), {}. Вызов из модуля lesson_03.common.utils.Вызов из функции main().Вызов из функции main
+2021-04-06 06:55:36,762 DEBUG client.py Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41068), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля lesson_03.common.utils.Вызов из функции main().Вызов из функции main
+2021-04-06 06:55:36,762 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2021-04-06 06:55:36,763 DEBUG client.py Была вызвана функция process_response_answer c параметрами ({'response': 200},), {}. Вызов из модуля __main__.Вызов из функции main().Вызов из функции main
+2021-04-06 06:55:36,763 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2021-04-06 06:55:36,764 DEBUG client.py Запущены процессы
+2021-04-06 06:55:56,012 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'denis', 'to': 'denis', 'time': 1617681356.0129342, 'mess_text': 'privet'}
+2021-04-06 06:55:56,013 DEBUG client.py Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41068), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'denis', 'to': 'denis', 'time': 1617681356.0129342, 'mess_text': 'privet'}), {}. Вызов из модуля lesson_03.common.utils.Вызов из функции self._bootstrap_inner().Вызов из функции create_message
+2021-04-06 06:55:56,013 INFO client.py Отправлено сообщение для пользователя denis
+2021-04-06 06:55:56,287 DEBUG client.py Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41068), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля lesson_03.common.utils.Вызов из функции self._bootstrap_inner().Вызов из функции run
+2021-04-06 06:55:56,287 INFO client.py Получено сообщение от пользователя denis:
+privet
